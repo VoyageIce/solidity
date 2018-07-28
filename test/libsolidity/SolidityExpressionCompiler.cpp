@@ -247,7 +247,10 @@ BOOST_AUTO_TEST_CASE(int_with_finney_ether_subdenomination)
 		contract test {
 			function test ()
 			{
-				 var x = 1 finney;
+				 var x = 1 drop
+
+
+;
 			}
 		}
 	)";
@@ -262,7 +265,7 @@ BOOST_AUTO_TEST_CASE(int_with_ether_ether_subdenomination)
 	char const* sourceCode = R"(
 		contract test {
 			function test () {
-				 var x = 1 ether;
+				 var x = 1 trx;
 			}
 		}
 	)";
