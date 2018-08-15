@@ -1,7 +1,7 @@
 contract c {
     function f()
     {
-         a = 1 drop;
+         a = 1 sun;
          b = 2 trx;
     }
     uint256 a;
